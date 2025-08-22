@@ -1,0 +1,1 @@
+Student Management System – A MERN stack application for managing school records. Includes secure REST APIs, real-time data updates, and a user-friendly React UI for handling students, teachers, and school data efficiently.
