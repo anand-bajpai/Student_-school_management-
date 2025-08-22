@@ -1,0 +1,32 @@
+#mark-attendence-top{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px ;
+    margin-bottom: 80px;
+}
+#mark-attendence-top>div{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#mark-attendence-top>div>select{
+    width: 30%;
+    font-size: 20px;
+}
+#mark-attendence-top>div>input{
+    font-size: 20px;
+}
+
+#mark-attendence-table{
+    width: 80%;
+    margin: auto;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+#mark-attendence-table>tr>td,th{
+    border: 5px solid black;
+    text-align: center;
+}

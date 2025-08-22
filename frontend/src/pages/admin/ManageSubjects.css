@@ -1,0 +1,108 @@
+#subjects-main{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#subejcts-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+#subjects-container{
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+#subjects-container>div{
+    width: 20%;
+    min-width: 200px;
+    min-height: 100px;
+    box-shadow: 0px 2px 32px rgba(0,0,0,0.2);
+}
+
+#subject-card{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subject-actions{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#edit-icon{
+    font-size: 30px;
+    color: rgba(5, 5, 252, 0.842);
+    cursor: pointer;
+}
+#delete-icon{
+    font-size: 30px;
+    color: rgba(241, 45, 45, 0.799);
+    cursor: pointer;
+}
+#edit-icon:hover{
+    color: rgb(18, 18, 205);
+}
+#delete-icon:hover{
+    color: red;
+}
+
+#add-subject-btn{
+    width: 10%;
+    height: 60%;
+    background-color: rgb(3, 211, 3);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+#add-subject-pop-up{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    height: 90vh;
+    width: 99vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add-subject-box{
+    height: 13%;
+    min-height: 250px;
+    background-color: #fff;
+    width: 20%;
+    min-width: 200px;
+    box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#add-subject-box>input{
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+#add-subject-box>button{
+    width: 60%;
+    height: 25px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(10, 34, 244);
+    color: white;
+    cursor: pointer;
+}

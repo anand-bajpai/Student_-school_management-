@@ -1,0 +1,99 @@
+#students-main{
+    position: relative;
+}
+#students-main>div{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+#student-top{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+#student-top>h1{
+    font-size: 38px;
+}
+#student-top>button{
+    width: 12%;
+    height: 40%;
+    background-color: rgb(11, 243, 11);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#students-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 40px;
+}
+.student-card{
+    height: 200px;
+    width: 30%;
+    min-width: 300px;
+    box-shadow: 0px 4px 32px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#add-student-pop-up{
+    position: absolute;
+    top: -50px;
+    height: 88vh;
+    left: -125px;
+    width: 125%;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#add-student-pop-up>form{
+    height: 70%;
+    width: 50%;
+    min-width: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#add-student-pop-up>form>h1{
+    font-size: 35px;
+    margin-top: -10px;
+}
+#add-student-pop-up>form>input{
+    width: 70%;
+    height: 30px;
+}
+
+#add-student-pop-up>form>div{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+#add-student-pop-up>form>div>input{
+    width: 40%;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#add-student-pop-up>form>div>input:nth-child(2){
+    background-color: red;
+}

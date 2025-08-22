@@ -1,0 +1,164 @@
+#main-classes{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#classes-header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+#classes-header>button{
+    width: 10%;
+    min-width: 100px;
+    height: 50%;
+    background-color: rgb(17, 211, 17);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#classes-card{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    max-height: 87.5vh;
+    overflow: auto;
+}
+
+#classes-card>div{
+    width: 20%;
+    min-width: 200px;
+    min-height: 200px;
+    box-shadow: 0px 4px 32px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(255, 0, 93, 0.774);
+    border-radius: 10px;
+}
+
+#class-name{
+    font-size: 30px;
+    color: #f2f4f6;
+}
+
+#class-subjects{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(250, 173, 49);
+}
+
+#manage-classes{
+    position: relative;
+}
+
+#add-class-pop-up{
+    position: absolute;
+    top: -50px;
+    height: 87.5vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+#add-class-pop-up>div{
+    min-height: 50%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top:30px;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0px 8px 16px black;
+    background-color: white;
+}
+#add-class-pop-up>div>h1{
+    font-size: 35px;
+    color: blue;
+}
+#add-class-pop-up>div>input{
+    width: 70%;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#btn-class{
+    width: 50%;
+    height: 30px;
+    background-color: chocolate;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+#pop-up-class-subjects{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    width: 70%;
+}
+#pop-up-class-subjects>label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#pop-up-class-subjects>label>input{
+    height: 35px;
+    width: 18px;
+}
+#pop-up-class-subjects>label>span{
+    color: rgb(254, 5, 5);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#edit-delete-class{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px
+}
+
+#edit-class-icon{
+    height: 50px;
+    width: 50px;
+    color: rgb(40, 88, 245);
+    cursor: pointer;
+}
+#delete-class-icon{
+    height: 50px;
+    width: 50px;
+    color: rgb(243, 23, 23);
+    cursor: pointer;
+}
+#delete-class-icon:hover{
+    color: rgb(160, 1, 1);
+}
+#edit-class-icon:hover{
+    color: rgb(2, 2, 181);
+}

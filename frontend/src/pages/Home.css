@@ -1,0 +1,76 @@
+#section1{
+    height: 300px;
+    background:linear-gradient(to right,rgb(9, 244, 9),rgb(18, 139, 252));
+}
+
+#section1>div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 80px;
+}
+#section1>div>div{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+#section1>div>div>img{
+    height: 90%;
+    width: 100%;
+
+}
+#section1>div>div>h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#section1>div>div>p{
+    font-size: 20px;
+}
+
+
+/* Section 2 */
+#section2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#section2>div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section2>div>h1{
+    font-size: 2rem;
+}
+#section2>div>div{
+    display: flex;
+    width: 100%;
+    gap: 80px;
+    margin-top: 50px;
+}
+#section2>div>div>div{
+    height: 150px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.2);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#section2>div>div>div>h1{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.748);
+}
+

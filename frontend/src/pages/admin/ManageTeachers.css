@@ -1,0 +1,246 @@
+#manage-teachers-main{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+#manage-teachers{
+    position: relative;
+}
+#manage-teachers-top{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+#manage-teachers-top>button{
+    width: 12%;
+    min-width: 120px;
+    height: 60%;
+    background-color: rgb(85, 163, 8);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#manage-teachers-top>h1{
+    font-size: 36px;
+    color: rgb(51, 0, 255);
+}
+#teachers-cards{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 61vh;
+    overflow: auto;
+}
+
+#teachers-cards>div{
+    width: 25%;
+    background-color: #f4f6f8;
+    min-width: 200px;
+    height: 300px;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.3);
+}
+
+#add-teacher-pop-up{
+    position: absolute;
+    top: -40px;
+    height: 87.5vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+#add-teacher-pop-up>div{
+    height: 80%;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0px 8px 16px black;
+    display: flex;
+}
+
+#teacher-details-form{
+    height: 100%;
+    width: 60%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#teacher-details-form>input,select,label,#teacher-password,#teacher-add-subject-btn{
+    width: 70%;
+    height: 30px;
+}
+
+#teacher-details-form>label{
+    display: flex;
+    justify-content: space-between;
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#teacher-subjects{
+    background-color: burlywood;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#teacher-password{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#teacher-password>input{
+    width: 90%;
+    height: 100%;
+}
+#password-eyes{
+    height: 80%;
+    width: 8%;
+    cursor: pointer;
+}
+
+#teacher-add-subject-btn>button{
+    width: 40%;
+    height: 80%;
+    background-color: rgb(255, 0, 247);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+#teacher-form-btns{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+#teacher-form-btns>button{
+    height: 25px;
+    width: 40%;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+#teacher-form-btns>button:nth-of-type(2){
+    background-color: blue;
+}
+
+.teacher-subject{
+    width: 42%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: rgb(166, 255, 0);
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+.teacher-subject>h1{
+    font-size: 35px;
+    color: rgb(64, 0, 255);
+}
+.teacher-subject>ul{
+    margin-left: 50px;
+    font-weight: bold;
+    overflow-y: auto;   
+    list-style-type: disc;
+    margin-bottom: 10px
+}
+.teacher-subject>ul::-webkit-scrollbar{
+    display: none;
+}
+
+#teacher-subjects::-webkit-scrollbar{
+    background-color: rgb(250, 148, 6);
+    width: 10px;
+}
+
+#remove-class{
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: red;
+    cursor: pointer;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 30px;
+}
+
+.teacher-card>div:nth-of-type(1){
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.teacher-card>div>img{
+    height: 80%;
+    width: 40%;
+    border-radius: 100%;
+}
+.teacher-card{
+    position: relative;
+}
+#teacher-card-personal-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+#teacher-card-personal-details>h1{
+    display: flex;
+    gap: 5px;
+}
+
+#teacher-card-subject-details{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: start;
+    height: 35%;
+    overflow-y: auto;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+#teacher-card-subject-details>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#remove-teacher-card{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
